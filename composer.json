@@ -1,0 +1,16 @@
+{
+    "name": "task/plugin",
+    "description": "Utilities for building Task plugins",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Fisher",
+            "email": "mike@mbfisher.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Task\\Plugin\\": "src/"
+        }
+    }
+}
