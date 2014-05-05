@@ -1,0 +1,12 @@
+language: php
+php:
+  - 5.5
+  - 5.4
+
+install:
+  - composer self-update
+  - composer install
+
+script: vendor/bin/phpspec run --format pretty
+
+after_script: vendor/bin/coveralls -v
